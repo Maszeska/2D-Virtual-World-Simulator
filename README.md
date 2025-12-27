@@ -50,7 +50,7 @@ The Java version features a graphical user interface (GUI) built with Swing. It 
 | :--- | :--- |
 | `w`, `a`, `s`, `d` | Set direction for Human (Up, Left, Down, Right) |
 | `p` | Activate Human Special Power (10-turn cooldown) |
-| **Mouse Click** | Click an empty cell to manually spawn a new organism of your choice. |
+| **Mouse Click** | Click an empty cell to spawn a new organism from a selection menu. |
 | **Buttons** | Use the UI buttons for **Next Turn**, **Save Game**, and **Load Game**. |
 
 ### How to Build and Run
@@ -58,7 +58,27 @@ The Java version features a graphical user interface (GUI) built with Swing. It 
    
 **Open in IDE**
    * Open the `OP_PROJECT_JAVA` folder in IntelliJ IDEA.
-   * Ensure the `src` folder is marked as the "Sources Root."
    * Run the `Main.java` file.
    
+---
+
+## 🐍 Python Implementation (Tkinter GUI)
+
+The Python version provides a graphical experience using the Tkinter library for the interface and Pillow (PIL) for high-quality image rendering. It features a dynamic grid and an event-driven logic.
+
+<img width="912" height="840" alt="Screenshot 2025-12-27 at 17 27 25" src="https://github.com/user-attachments/assets/dfee2467-bc05-4792-b77b-4b51d7f90f31" />
+
+### Controls
+| Key | Action |
+| :--- | :--- |
+| `w`, `a`, `s`, `d` | Set direction for Human (Up, Left, Down, Right) |
+| `p` | Activate Human Special Power (10-turn cooldown) |
+| **Mouse Click** | Click an empty cell to spawn a new organism from a selection menu. |
+| **Buttons** | Use the UI buttons for **Next Turn**, **Save Game**, and **Load Game**. |
+
+### How to Build and Run
+> **Prerequisites:** **Python 3.x** and the `Pillow` library.
    
+**Open in IDE**
+   * Open the `OP_PROJECT_PYTHON` folder in PyCharm.
+   * Run the `Main.py` file.
