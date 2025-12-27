@@ -30,8 +30,35 @@ The C++ version uses a terminal interface powered by the `ncurses` library. It f
    mkdir build && cd build
    cmake ..
    cmake --build .
+   ```
    
 2. **Run:**
    ```bash
    ./OP_PROJECT_CPP
+   ```
+   
+---
+
+## ☕ Java Implementation (Swing GUI)
+
+The Java version features a graphical user interface (GUI) built with Swing. It uses high-resolution images for organisms and a mouse-interactive grid.
+
+<img width="912" height="840" alt="Screenshot 2025-12-27 at 16 04 46" src="https://github.com/user-attachments/assets/539760bb-febc-4f85-8cc8-0d7ff12f1980" />
+
+### Controls
+| Key | Action |
+| :--- | :--- |
+| `w`, `a`, `s`, `d` | Set direction for Human (Up, Left, Down, Right) |
+| `p` | Activate Human Special Power (10-turn cooldown) |
+| **Mouse Click** | Click an empty cell to manually spawn a new organism of your choice. |
+| **Buttons** | Use the UI buttons for **Next Turn**, **Save Game**, and **Load Game**. |
+
+### How to Build and Run
+> **Prerequisites:** Install **JDK 17** or higher.
+   
+**Open in IDE**
+   * Open the `OP_PROJECT_JAVA` folder in IntelliJ IDEA.
+   * Ensure the `src` folder is marked as the "Sources Root."
+   * Run the `Main.java` file.
+   
    
