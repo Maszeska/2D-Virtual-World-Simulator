@@ -1,8 +1,35 @@
 # Virtual World Simulator (OOP Project)
 
+>_Project created as part of an Object Oriented Programming course during studies._
+
 A turn-based ecosystem simulator where different species of animals and plants interact on a 2D grid. This project demonstrates core **Object-Oriented Programming (OOP)** principles like inheritance, polymorphism, and encapsulation across multiple programming languages.
 
+### Simulation Rules & Mechanics
+- Each turn, organisms act in order of **initiative**, then **age**.
+- Animals can:
+  - Move to adjacent cells
+  - Fight other organisms based on strength
+  - Reproduce with the same species
+- Plants can:
+  - Spread to neighboring cells
+  - Apply special effects (e.g., poison, strength boost)
+- The Human character is player-controlled and has a unique special ability.
 
+### Implemented Species & Behaviors
+| Species | Type | Strength | Initiative | Special Ability / Behavior |
+| :--- | :--- | :---: | :---: | :--- |
+| **Human** | 🐾 | 5 | 4 | Player-controlled; "Magical Potion" boosts strength to 10, decaying by 1 each turn. |
+| **Wolf** | 🐾 | 9 | 5 | High strength predator. |
+| **Sheep** | 🐾 | 4 | 4 | Standard prey animal. |
+| **Fox** | 🐾 | 3 | 7 | **Sense of Smell:** Never moves to a cell with a stronger organism. |
+| **Turtle** | 🐾 | 2 | 1 | **Defense:** 75% chance to stay still; reflects attacks from strength < 5. |
+| **Antelope** | 🐾 | 4 | 4 | **Agility:** Range of 2 cells; 50% chance to escape combat. |
+| **CyberSheep**| 🐾 | 11 | 4 | **Specialized:** Targets Sosnowsky's Hogweed (Python version). |
+| **Grass** | 🌿 | 0 | 0 | Basic spreading plant. |
+| **Sow Thistle**| 🌿 | 0 | 0 | Tries to spread 3 times per turn. |
+| **Guarana** | 🌿 | 0 | 0 | Increases consumer's strength by +3 permanently. |
+| **Belladonna** | 🌿 | 99 | 0 | Kills any animal that consumes it. |
+| **Hogweed** | 🌿 | 10 | 0 | Kills all adjacent animals every turn. |
 
 ---
 
@@ -57,8 +84,8 @@ The Java version features a graphical user interface (GUI) built with Swing. It 
 > **Prerequisites:** Install **JDK 17** or higher.
    
 **Open in IDE**
-   * Open the `OP_PROJECT_JAVA` folder in IntelliJ IDEA.
-   * Run the `Main.java` file.
+   - Open the `OP_PROJECT_JAVA` folder in IntelliJ IDEA.
+   - Run the `Main.java` file.
    
 ---
 
@@ -80,5 +107,5 @@ The Python version provides a graphical experience using the Tkinter library for
 > **Prerequisites:** **Python 3.x** and the `Pillow` library.
    
 **Open in IDE**
-   * Open the `OP_PROJECT_PYTHON` folder in PyCharm.
-   * Run the `Main.py` file.
+   - Open the `OP_PROJECT_PYTHON` folder in PyCharm.
+   - Run the `Main.py` file.
