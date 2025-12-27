@@ -10,6 +10,8 @@ A turn-based ecosystem simulator where different species of animals and plants i
 
 The C++ version uses a terminal interface powered by the `ncurses` library. It features a grid-based map where organisms act based on their initiative and strength.
 
+<img width="437" height="413" alt="Screenshot 2025-12-27 at 15 49 52" src="https://github.com/user-attachments/assets/b4363c3b-27d3-44ef-ae53-9a44dc515c4c" />
+
 ### Controls
 | Key | Action |
 | :--- | :--- |
